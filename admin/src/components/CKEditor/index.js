@@ -4,7 +4,7 @@ import styled, { createGlobalStyle } from "styled-components";
 
 import { Box } from "@strapi/design-system/Box";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
-import { Editor as CustomClassicEditor } from "./build/ckeditor";
+import * as CustomClassicEditor from "./build/ckeditor";
 import MediaLib from "../MediaLib";
 import PropTypes from "prop-types";
 import pluginId from "../../pluginId";
