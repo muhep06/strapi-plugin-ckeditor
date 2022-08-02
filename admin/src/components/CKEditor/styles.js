@@ -1,4 +1,7 @@
 const styles = `
+.termmark {
+    border-bottom: orangered dashed 1px;
+}
 .ck-editor__main {
     --ck-font-face:"Source Sans Pro",system-ui,Roboto,"Helvetica Neue","Helvetica",Arial,sans-serif;
     min-height: ${200 / 16}em;
