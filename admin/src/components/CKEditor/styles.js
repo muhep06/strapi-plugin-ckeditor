@@ -89,6 +89,9 @@ const styles = `
         list-style: initial;
         margin-left: 32px;
     }
+    ol {
+        list-style: decimal !important;
+    }
     sub{
         vertical-align: sub
     }
