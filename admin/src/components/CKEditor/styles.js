@@ -1,6 +1,7 @@
 const styles = `
 .termmark {
     border-bottom: orangered dashed 1px;
+    font-style: italic !important;
 }
 .ck-editor__main {
     --ck-font-face:"Source Sans Pro",system-ui,Roboto,"Helvetica Neue","Helvetica",Arial,sans-serif;
